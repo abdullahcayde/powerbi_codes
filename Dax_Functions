@@ -1,0 +1,34 @@
+DAX Functions
+
+- SUM 
+TotalSales = SUM(Sales[SalesAmount])
+
+- // comment
+
+- /* TEXT */    (new lines comment)
+/* Some other text some other text2 */
+
+- COUNTROWS (count of all rows)
+NumberOfProducts = COUNTROWS('Product')
+
+- COUNTBLANK (count of blank columns)
+NoProductName = COUNTBLANK('Product'[ProductName])
+
+- distinct count of column
+
+- columns difference with only table name
+
+- % of sum calculation
+
+- Net Sales Example
+
+- SUMX (One time table name enough) Total Returns Example
+
+- Date Difference (New Column only)
+
+- FIND func. (Case Sensitive)
+
+- IF and FIND func.
+
+- If and Find with blank
+- IF , OR, FIND (Check for Mouse or mouse)
